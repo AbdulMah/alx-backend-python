@@ -4,4 +4,6 @@
 
 def add(a: float, b: float) -> float:
     """ Addition"""
-    return float(sum(a,b))
+    return float(a + b)
+
+print(add(1.11, 2.22))
