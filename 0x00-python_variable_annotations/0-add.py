@@ -13,3 +13,5 @@ def add(a: float, b: float) -> float:
         float: _description_
     """    
     return float(a + b)
+
+print(add(3,3))
